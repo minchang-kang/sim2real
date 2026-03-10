@@ -1,0 +1,14 @@
+# sim2real/motor/motor_resistors.py
+
+ADDR_OPERATING_MODE     = 11
+LEN_OPERATING_MODE      = 1
+
+ADDR_TORQUE_ENABLE      = 64
+TORQUE_ENABLE           = 1
+TORQUE_DISABLE          = 0
+
+ADDR_GOAL_VELOCITY      = 104
+LEN_GOAL_VELOCITY       = 4
+
+ADDR_PRESENT_VELOCITY   = 128
+LEN_PRESENT_VELOCITY    = 4

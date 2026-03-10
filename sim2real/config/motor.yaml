@@ -1,0 +1,6 @@
+# sim2real/config/motor.yaml
+protocol_version : 2.0
+port: '/dev/ttyUSB0'
+motor_ids: [1, 2]
+baudrate: 4000000
+control_mode: velocity
